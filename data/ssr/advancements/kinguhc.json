@@ -1,0 +1,15 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_apple"
+        },
+        "background": "minecraft:textures/block/dirt.png",
+        "title": "Kingcraft UHC",
+        "description": "欢迎游玩老King服务器UHC小游戏"
+    },
+    "criteria": {
+        "joingame": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

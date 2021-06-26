@@ -1,0 +1,15 @@
+{
+    "replace": false,
+    "values": [
+        "air",
+        "void_air",
+        "cave_air",
+        "#buttons",
+        "water",
+        "grass",
+        "tall_grass",
+        "#flowers",
+        "seagrass",
+        "tall_seagrass"
+    ]
+}

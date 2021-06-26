@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:enchanted_golden_apple"
+        },
+        "title": "附魔金！！",
+        "description": "首次获得附魔金苹果。",
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "ssr:kinguhc",
+    "criteria": {
+        "getapple": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:enchanted_golden_apple"],
+                        "count": 1
+                    }
+                ]
+            }
+        }
+    }
+}

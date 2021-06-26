@@ -1,0 +1,41 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+	  {
+		"rolls": {
+		  "min": 3,
+		  "max": 10
+		},
+		"bonus_rolls": {
+			"min": 3,
+			"max": 17
+		},
+		"entries": [
+		  {
+			"type": "minecraft:loot_table",
+			"weight": 40,
+			"quality": -30,
+			"name": "ssr:king_useless"
+		  },
+		  {
+			"type": "minecraft:loot_table",
+			"weight": 35,
+			"quality": -10,
+			"name": "ssr:king_common"
+		  },
+		  {
+			"type": "minecraft:loot_table",
+			"weight": 20,
+			"quality": 30,
+			"name": "ssr:king_uncommon"
+		  },
+		  {
+			"type": "minecraft:loot_table",
+			"weight": 5,
+			"quality": 10,
+			"name": "ssr:king_legendary"
+		  }
+		]
+	  }
+	]
+  }
