@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:potion"
+        },
+        "title": "幸运儿",
+        "description": "从箱子里开出了幸运药水",
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "ssr:kinguhc",
+    "criteria": {
+        "getapple": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:splash_potion"],
+                        "nbt": "{tag:{Potion:\"luck\"}}",
+                        "count": 1
+                    }
+                ]
+            }
+        }
+    }
+}
