@@ -2,7 +2,7 @@
 
 scoreboard objectives add time dummy
 scoreboard objectives add limitation dummy
-scoreboard players set delay time 600
+scoreboard players set delay time 100
 scoreboard players set landing time 0
 scoreboard players set timer time 0
 scoreboard players set count limitation 0

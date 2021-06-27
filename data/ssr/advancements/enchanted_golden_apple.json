@@ -14,13 +14,12 @@
         "getapple": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
-                "items": [
-                    {
-                        "items": ["minecraft:enchanted_golden_apple"],
-                        "count": 1
-                    }
-                ]
+                "item": "minecraft:enchanted_golden_apple",
+                "count": 1
             }
         }
-    }
+    },
+    "requirements": [
+        "getapple"
+    ]
 }

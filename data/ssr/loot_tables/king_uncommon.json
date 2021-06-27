@@ -70,7 +70,7 @@
 							}
 						}
 					],
-					"name": "minecraft:copper_ingot"
+					"name": "minecraft:netherite_scrap"
 				}, {
 					"type": "minecraft:item",
 					"functions": [{

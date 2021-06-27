@@ -11,17 +11,16 @@
     },
     "parent": "ssr:kinguhc",
     "criteria": {
-        "getapple": {
+        "luckdog": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
-                "items": [
-                    {
-                        "items": ["minecraft:splash_potion"],
-                        "nbt": "{tag:{Potion:\"luck\"}}",
-                        "count": 1
-                    }
-                ]
+                "item": "minecraft:splash_potion",
+                "tag": {"Potion":"luck"},
+                "count": 1
             }
         }
-    }
+    },
+    "requirements": [
+        "luckdog"
+    ]
 }

@@ -21,9 +21,9 @@
 					"name": "minecraft:diamond"
 				}, {
 					"type": "minecraft:item",
-					"weight": 5,
+					"weight": 3,
 					"quality": 1,
-					"name": "minecraft:netherite_scrap"
+					"name": "minecraft:netherite_ingot"
 				}, {
 					"type": "minecraft:item",
 					"weight": 3,
@@ -43,9 +43,9 @@
                     "name": "minecraft:redstone_block"
                 }, {
                     "type": "minecraft:item",
-					"weight": 5,
-					"quality": -5,
-                    "name": "minecraft:copper_block"
+					"weight": 3,
+					"quality": 1,
+                    "name": "minecraft:diamond_block"
                 }, {
                     "type": "minecraft:item",
 					"weight": 5,
