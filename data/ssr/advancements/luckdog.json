@@ -14,13 +14,16 @@
         "luckdog": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
-                "item": "minecraft:splash_potion",
-                "tag": {"Potion":"luck"},
-                "count": 1
+                "items": [
+                    {
+                        "item": "minecraft:splash_potion",
+                        "potion": "luck"
+                    }
+                ]
             }
         }
     },
     "requirements": [
-        "luckdog"
+        ["luckdog"]
     ]
 }

@@ -1,15 +1,7 @@
 particle cloud ~ ~ ~ 0.0 0.0 0.0 1 10
 setblock ~ ~ ~ chest{LootTable:"ssr:king_loot"}
-setblock ~1 ~ ~ chest{LootTable:"ssr:king_loot"}
-setblock ~-1 ~ ~ chest{LootTable:"ssr:king_loot"}
-setblock ~ ~ ~-1 chest{LootTable:"ssr:king_loot"}
-setblock ~ ~ ~1 chest{LootTable:"ssr:king_loot"}
-setblock ~1 ~ ~1 chest{LootTable:"ssr:king_loot"}
-setblock ~-1 ~ ~-1 chest{LootTable:"ssr:king_loot"}
-setblock ~1 ~ ~-1 chest{LootTable:"ssr:king_loot"}
-setblock ~-1 ~ ~1 chest{LootTable:"ssr:king_loot"}
 scoreboard players set landing time 0
-scoreboard players add count limitation 1
-execute if score count limitation matches 300 run scoreboard players set landing time 2
-tellraw @a [{"text":"【广播】 ","color":"red","bold":true},{"score":{"objective":"limitation","name":"count"},"color":"gold","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"text":"/","color":"gold","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"text":"300","color":"orange","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"text":"次战利品补给已空投","color":"white","bold":false,"underlined":false}]
+scoreboard players add count time 1
+execute if score count time matches 100 run scoreboard players set landing time 2
+tellraw @p [{"text":"[广播]总共100个补给箱，第","color":"white","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"score":{"objective":"time","name":"count"},"color":"gold","bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false},{"text":"个补给已投放。","color":"white","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]
 kill @s

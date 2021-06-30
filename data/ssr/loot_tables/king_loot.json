@@ -4,12 +4,9 @@
 	  {
 		"rolls": {
 		  "min": 3,
-		  "max": 10
+		  "max": 16
 		},
-		"bonus_rolls": {
-			"min": 3,
-			"max": 17
-		},
+		"bonus_rolls": 11,
 		"entries": [
 		  {
 			"type": "minecraft:loot_table",
